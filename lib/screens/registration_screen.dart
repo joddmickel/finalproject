@@ -1,22 +1,17 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(const RegScreen());
+void main() => runApp(const RegistrationScreen());
 
-class RegScreen extends StatelessWidget {
-  const RegScreen({Key? key}) : super(key: key);
+class RegistrationScreen extends StatelessWidget {
+  const RegistrationScreen({Key? key}) : super(key: key);
 
   static const String _title = 'STOCK AND INVENTORY';
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: _title,
-      theme: ThemeData(primarySwatch: Colors.blueGrey),
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(title: const Text(_title)),
-        body: const Regroute(),
-      ),
+    return Scaffold(
+      appBar: AppBar(title: const Text(_title)),
+      body: const Regroute(),
     );
   }
 }

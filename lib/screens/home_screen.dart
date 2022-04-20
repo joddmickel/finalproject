@@ -1,22 +1,17 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(const LoginScreen());
+void main() => runApp(const HomeScreen());
 
-class LoginScreen extends StatelessWidget {
-  const LoginScreen({Key? key}) : super(key: key);
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({Key? key}) : super(key: key);
 
   static const String _title = 'Sample App';
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: _title,
-      theme: ThemeData(primarySwatch: Colors.blueGrey),
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(title: const Text(_title)),
-        body: const Login(),
-      ),
+    return Scaffold(
+      appBar: AppBar(title: const Text(_title)),
+      body: const Login(),
     );
   }
 }
@@ -41,7 +36,7 @@ class _LoginState extends State<Login> {
                 child: Container(
                     height: 132,
                     width: MediaQuery.of(context).size.width,
-                    child:  Image.asset(
+                    child: Image.asset(
                       'images/kindpng_2350524.png',
                     )),
                 decoration: BoxDecoration(

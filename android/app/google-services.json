@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "826602465140",
+    "project_id": "store-judith",
+    "storage_bucket": "store-judith.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826602465140:android:c2721c9d24ee3738e9ae21",
+        "android_client_info": {
+          "package_name": "com.example.storeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826602465140-n50vcc5vqdq0eetp759hv2jt9dbevhr3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqUqkIz2DNMzfMTwGockJKsoKDB0R2T2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826602465140-n50vcc5vqdq0eetp759hv2jt9dbevhr3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
